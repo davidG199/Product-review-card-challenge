@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.contenedor {
+  width: 600px;
+  height: 480px;
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 10px;
+}
+
+.contenido {
+    padding: 25px 30px 25px 25px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img img {
+    width: 300px;
+    height: 100%;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+button p {
+    padding-left: 10px;
+    color: white;
+}
+
+span,p {
+    font-size: 14px;    
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 25px;
+}
+
+span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    top: 15px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    text-transform:capitalize;
+    color: hsl(212, 21%, 14%);
+    padding-right: 20px;
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+#precioGrande{
+    font-size: 35px;
+    padding-right: 20px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    
+}
+
+#precioPequeño {
+    font-size: 13px;
+    text-decoration:line-through;
+}
+
+.perfumeInfo {
+    /* padding: 10px 0; */
+}
