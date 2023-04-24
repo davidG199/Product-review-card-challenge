@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -23,7 +22,6 @@
     />
     <title>Frontend Mentor | Product preview card component</title>
     <link rel="stylesheet" href="./styles.css" />
-
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -32,28 +30,25 @@
   </head>
   <body>
     <main class="contenedor">
-      <div class="img">
-        <img src="./images/image-product-desktop.jpg" alt="" />
-      </div>
-      <div class="contenido">
-        <span>Perfume</span>
-        <div class="nombrePerfume">
-          <h1>Grabielle essence Eau de parfum</h1>
-        </div>
-        <div class="perfumeInfo">
-          <p>
-            A floral, solar and voluptuous interpretation composed by Olivier
-            Polge, Perfumer-Creator for the House of CHANEL
-          </p>
-        </div>
-        <div class="precio">
-          <p id="precioGrande">$149.99</p> 
-          <p id="precioPequeño">$169.99</p>
-        </div>
-        <button>
-          <img src="./images/icon-cart.svg" alt="">
+      <div class="card">
+          <img src="./images/image-product-desktop.jpg" alt="img" class="perfume">
+        <div class="contenido">
+          <span>P E R F U M E</span>
+          <div class="titulo">
+            <h1>gabrielle essence eau de parfum</h1>
+          </div>
+          <div class="info">
+            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+          </div>
+          <div class="precio">
+            <h2>$149,99</h2>
+            <p>$169,99</p>
+          </div>
+          <button class="btn">
+            <img src="./images/icon-cart.svg" alt="cart">
             <p>Add to Cart</p>
-        </button>
+          </button>
+        </div>
       </div>
     </main>
 
