@@ -104,6 +104,17 @@ body {
         border-radius: 10px 10px 0 0;
     }
     .contenido{
-        padding: 10px;
+        padding: 20px;
+    }
+    .btn {
+        width: 100%;
+        margin: 0;
+    }
+    .precio {
+        margin-top: -28px;
+        margin-bottom: -8px;
+    }
+    .titulo h1 {
+        margin: 2px 0;
     }
 }
